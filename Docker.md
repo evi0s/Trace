@@ -191,7 +191,7 @@ docker logs node-test
 #显示node-test的运行日志（如果有的话）
 ```
 
-####docker attach
+#### docker attach
 
 ##### 进入容器
 
@@ -320,9 +320,12 @@ docker run --name=owncloud \
 ```
 5.完成部署
 打开http://ip:8080 即可看到owncloud的初次配置界面，在填写数据库地址时，填写MySQL容器的名称即可
+
 这里放出一个演示地址，搭建使用的就是docker技术
+
 [ownCloud demo](https://pan.qrs0301.xin)
 
 ### Docker相关教程参考链接
 [菜鸟教程](http://www.runoob.com/docker/docker-tutorial.html)
+
 [WikiPedia](https://en.wikipedia.org/wiki/Docker_(software))
