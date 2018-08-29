@@ -117,7 +117,7 @@ SSH有哪些客户端？
 
 根据服务器商提供的系统镜像不同，Linux系统自带的软件也就不同。避免在安装时出现各种蜜汁错误，我们需要对包管理器进行初始化和部分常用软件安装。
 
-对于UNIX系系统如Debian和Ubuntu，使用了apt作为包管理器：
+对于Debian和Ubuntu，使用了apt作为包管理器：
 ```bash
 apt-get update
 apt-get install wget curl net-tools git vim screen iptables python
@@ -130,7 +130,7 @@ apt-get install wget curl net-tools git vim screen iptables python
 # python不用说了，虽然自带但是安装一下让它更新到最新版本
 ```
 
-对于Linux系系统如CentOS和RHEL，使用了yum作为包管理器：
+对于CentOS和RHEL，使用了yum作为包管理器：
 ```bash
 yum update
 yum install wget curl net-tools git vim screen iptables python
@@ -152,13 +152,13 @@ python版SS搭建可以让你自己动手，多多了解命令行。但是如果
 
 ##### 首先安装python-setuptools和pip包管理器
 
-对于UNIX系系统如Debian和Ubuntu
+对于Debian和Ubuntu
 
 ```bash
 apt-get install python-gevent python-pip
 ```
 
-对于Linux系系统如CentOS和RHEL
+对于CentOS和RHEL
 
 ```bash
 yum install python-setuptools
@@ -168,14 +168,14 @@ easy_install pip
 
 ##### 通过pip安装shadowsocks-python版
 
-对于UNIX系系统如Debian和Ubuntu
+对于Debian和Ubuntu
 
 ```bash
 pip install shadowsocks
 apt-get install python-m2crypto # 加密模块
 ```
 
-对于Linux系系统如CentOS和RHEL
+对于CentOS和RHEL
 
 ```bash
 pip install shadowsocks
@@ -332,7 +332,7 @@ screen -S ss # 新建一个窗口，名字叫ss
 
 ##### 一键安装
 
-对于Linux系系统如CentOS和RHEL
+对于CentOS和RHEL
 
 *原地址[CentOS下shadowsocks-libev一键安装脚本--秋水逸冰](https://teddysun.com/357.html)*
 
@@ -357,7 +357,7 @@ chmod +x shadowsocks-libev.sh
 /etc/init.d/shadowsocks status # 查看状态
 ```
 
-对于UNIX系系统如Debian和Ubuntu
+对于Debian和Ubuntu
 
 *原地址[Debian下shadowsocks-libev一键安装脚本--秋水逸冰](https://teddysun.com/358.html)*
 
